@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{ 
+    background-image: linear-gradient(to right,#1D4350,#A43931 );
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+.box{
+    background-color: white;
+    height: 30rem;
+    width: 25rem;
+    position: center;
+    margin-left: 30rem;
+    margin-top:4rem;
+    border-radius: 20%;
+    text-align: center;
+    font-family: 'Baloo Tamma 2', cursive;
+    padding: 1rem;
+}
+h4{
+    padding-bottom: 1rem;
+}
+hr{
+width: 0.3rem;
+}
+input{
+    padding: 0.3rem;
+    width: 12rem;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+label{
+    display: inline-block;
+    clear: left;
+    width: 120px;
+}
+.btn{
+    background-color: #E74C3C;
+    padding: 0.3rem;
+    width: 10rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:white;
+    color: black;
+}
+@media screen and (max-width: 600px) {
+    body{
+        background-color:#1D4350;     }
+    .box{
+      width: 100%;
+      margin-left: 0px;
+      position: absolute;
+      margin-bottom: 0px;
+      height:40rem ;
+      background-image: linear-gradient(to right,#1D4350,#A43931 );
+    
+    }
+    input label{
+        max-width: fit-screen;
+    }
+}
